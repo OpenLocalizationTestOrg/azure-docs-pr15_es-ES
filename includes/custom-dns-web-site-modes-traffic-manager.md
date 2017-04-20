@@ -1,0 +1,3 @@
+Establecer un nombre de dominio personalizado en una aplicación web en la aplicación de servicio de Azure que está por el Administrador de tráfico de equilibrio de carga sólo está disponible para los sitios Web de modo **estándar** . Antes de cambiar de una aplicación web desde el modo de plan de servicio gratuito de aplicación al modo compartido, Basic o estándar, primero debe quitar BLOQ MAYÚS gastos en lugar para la suscripción de servicio de aplicaciones. 
+
+Para obtener más información sobre los modos de plan de servicio de aplicaciones, incluido cómo cambiar el modo de su sitio, consulte [cómo ajustar el tamaño de los sitios web](../articles/app-service-web/web-sites-scale.md).

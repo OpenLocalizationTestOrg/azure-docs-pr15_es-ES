@@ -1,0 +1,1 @@
+> [AZURE.IMPORTANT] Antes de trabajar con recursos Azure, familiarizarse con los modelos de implementación: [el Administrador de recursos y clásica](../articles/resource-manager-deployment-model.md).

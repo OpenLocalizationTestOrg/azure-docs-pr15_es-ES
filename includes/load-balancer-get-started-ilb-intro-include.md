@@ -1,0 +1,3 @@
+Un equilibrador de carga interno Azure (DCI) proporciona equilibrio entre máquinas virtuales que residen dentro de un servicio de nube o de una red virtual con un ámbito regional de carga de red.
+
+Para obtener información acerca del uso y configuración de redes virtuales con un ámbito regional, vea [Redes virtuales regionales](../articles/virtual-network/virtual-networks-migrate-to-regional-vnet.md). Las redes virtuales existentes que se han configurado para un grupo de afinidad no pueden utilizar ILB.

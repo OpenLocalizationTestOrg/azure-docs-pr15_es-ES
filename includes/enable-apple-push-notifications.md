@@ -1,0 +1,4 @@
+
+* [Registrar un identificador de aplicación de la aplicación](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingProfiles/MaintainingProfiles.html#//apple_ref/doc/uid/TP40012582-CH30-SW991). Cree un identificador de aplicación explícitas (no un carácter comodín ID de aplicación) y, para **ID de agrupación**, use el **Identificador de paquete** exacto que está en su proyecto de tutorial rápido Xcode. Es fundamental que Active la opción de **Notificaciones de inserción** . 
+
+* Siguiente, [prepararse para configurar las notificaciones de inserción](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html#//apple_ref/doc/uid/TP40012582-CH26-SW6), crear un "Desarrollo" o "Distribución" certificado SSL.

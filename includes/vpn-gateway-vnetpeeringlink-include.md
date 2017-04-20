@@ -1,0 +1,1 @@
+También es posible conectar VNets sin usar una puerta de enlace VPN. Si su VNets están en la misma región, desea considere la posibilidad de conectar a ellas mediante interconexión VNet. Para obtener más información, vea el artículo [VNet interconexión](../articles/virtual-network/virtual-network-peering-overview.md) .

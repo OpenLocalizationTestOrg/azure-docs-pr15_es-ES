@@ -1,0 +1,5 @@
+Es importante comprender que Azure actualmente funciona con dos modelos de implementación: el Administrador de recursos y clásica. Antes de comenzar la configuración, compruebe que está usando para el modelo de implementación que desee trabajar en las instrucciones. Los dos modelos no son totalmente compatibles entre sí.
+
+Por ejemplo, si está trabajando con una red virtual que se creó usando el modelo de implementación clásica y desea agregar una conexión a la VNet, usaría los métodos de implementación que se corresponden con el modelo de implementación clásico, no el Administrador de recursos. Si está trabajando con una red virtual que se creó usando el modelo de implementación de administrador de recursos, debería usar los métodos de implementación que se corresponden con Administrador de recursos, no clásica.
+
+Para obtener información acerca de los modelos de implementación, vea [Descripción de administrador de recursos e implementación clásico](../articles/resource-manager-deployment-model.md).

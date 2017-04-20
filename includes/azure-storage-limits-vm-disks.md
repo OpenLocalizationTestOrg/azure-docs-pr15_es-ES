@@ -1,0 +1,7 @@
+Una máquina virtual Azure admite la asociación de un número de discos de datos. Para obtener un rendimiento óptimo, desea limitar el número de discos altamente utilizados conectados a la máquina virtual para evitar posibles limitación. Si todos los discos no se están muy utilizando al mismo tiempo, la cuenta de almacenamiento puede admite un mayor número de discos.
+
+- **Para las cuentas de almacenamiento estándar:** Una cuenta de almacenamiento estándar tiene una tasa de solicitud total máximo de 20 000 IOPS. El total IOPS a través de todos los discos de máquina virtual en una cuenta de almacenamiento estándar no debe superar este límite.
+
+    Puede calcular aproximadamente el número de discos altamente utilizados compatible con una cuenta de almacenamiento estándar único basada en el límite de la tasa de solicitud. Por ejemplo, para una VM de nivel básico, el número máximo de discos altamente utilizados es sobre 66 (20.000 y 300 IOPS por disco) y VM nivel estándar, es aproximadamente 40 (20.000/500 IOPS por disco), tal como se muestra en la tabla siguiente. 
+ 
+- **Para las cuentas de almacenamiento premium:** Una cuenta de almacenamiento premium tiene una tasa de rendimiento total máximo de 50 GB/s. El rendimiento total a través de todos los discos VM no debe superar este límite.
