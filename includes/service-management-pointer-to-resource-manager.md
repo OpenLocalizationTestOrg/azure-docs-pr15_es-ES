@@ -1,0 +1,3 @@
+### <a name="azure-service-management-and-azure-resource-manager"></a>Administración del servicio de Azure y Azure Administrador de recursos
+ 
+En este artículo es para un recurso que se creó en administración del servicio. Microsoft recomienda el Administrador de recursos para los nuevos recursos de Azure. Para obtener una explicación de las ventajas del Administrador de recursos, consulte [calcular Azure, red y proveedores de almacenamiento en el Administrador de recursos de Azure](../articles/virtual-machines/virtual-machines-windows-compare-deployment-models.md). Para realizar la misma tarea con el Administrador de recursos, consulte el siguiente artículo:

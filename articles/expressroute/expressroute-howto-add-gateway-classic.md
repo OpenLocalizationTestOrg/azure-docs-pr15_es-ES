@@ -1,0 +1,41 @@
+<properties
+   pageTitle="Configurar una puerta de enlace VNet para ExpressRoute con PowerShell | Microsoft Azure"
+   description="Configurar una puerta de enlace VNet para una implementación clásica VNet con PowerShell para una configuración de ExpressRoute del modelo."
+   documentationCenter="na"
+   services="expressroute"
+   authors="charwen"
+   manager="carmonm"
+   editor=""
+   tags="azure-service-management"/>
+<tags
+   ms.service="expressroute"
+   ms.devlang="na"
+   ms.topic="article" 
+   ms.tgt_pltfrm="na"
+   ms.workload="infrastructure-services"
+   ms.date="10/03/2016"
+   ms.author="charwen"/>
+
+# <a name="configure-a-virtual-network-gateway-for-expressroute-using-the-classic-deployment-model-and-powershell"></a>Configurar una puerta de enlace de red virtual para ExpressRoute utilizando el modelo de implementación clásica y PowerShell
+
+> [AZURE.SELECTOR]
+- [PowerShell - Administrador de recursos](expressroute-howto-add-gateway-resource-manager.md)
+- [PowerShell - clásica](expressroute-howto-add-gateway-classic.md)
+
+En este artículo le guiará por los pasos para agregar, cambiar el tamaño y quitar una puerta de enlace de red virtual (VNet) para un VNet existente. Los pasos para esta configuración se específicamente para VNets que se crearon usando el **modelo de implementación clásica** y que se pueden usar en una configuración de ExpressRoute. 
+
+**Acerca de los modelos de implementación de Azure**
+
+[AZURE.INCLUDE [vpn-gateway-clasic-rm](../../includes/vpn-gateway-classic-rm-include.md)] 
+
+## <a name="before-beginning"></a>Antes de comenzar
+
+Compruebe que ha instalado los cmdlets de PowerShell de Azure necesarios para esta configuración (1.0.2 o posterior). Si no ha instalado los cmdlets, debe hacerlo antes de comenzar con los pasos de configuración. Para obtener más información sobre la instalación de Azure PowerShell, vea [cómo instalar y configurar Azure PowerShell](../powershell-install-configure.md).
+
+
+[AZURE.INCLUDE [expressroute-gateway-classic-ps](../../includes/expressroute-gateway-classic-ps-include.md)]
+
+    
+## <a name="next-steps"></a>Pasos siguientes
+
+Después de haber creado la puerta de enlace VNet, puede vincular la VNet a un circuito de ExpressRoute. Vea [una red Virtual a un circuito ExpressRoute vínculo](expressroute-howto-linkvnet-classic.md).
